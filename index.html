@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple encryption and decryption system">
+    <title>Encryption System</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Welcome to the Encryption System</h1>
+        <p>Encrypt and decrypt your messages securely.</p>
+    </section>
+    
+    <section class="encryption">
+        <h2>Encrypt Your Text</h2>
+        <textarea id="inputText" placeholder="Enter text to encrypt..."></textarea>
+        <button onclick="encryptText()">Encrypt</button>
+        <p>Encrypted Output:</p>
+        <textarea id="encryptedText" readonly></textarea>
+    </section>
+    
+    <section class="decryption">
+        <h2>Decrypt Your Text</h2>
+        <textarea id="decryptInput" placeholder="Enter text to decrypt..."></textarea>
+        <button onclick="decryptText()">Decrypt</button>
+        <p>Decrypted Output:</p>
+        <textarea id="decryptedText" readonly></textarea>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Encryption System</p>
+    </footer>
+</body>
+</html>
